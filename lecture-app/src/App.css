@@ -1,36 +1,28 @@
 body{
-  background-color: rgb(60, 60, 97);
-  color: goldenrod;
+  background-color: rgb(44, 44, 110);
+  color: rgb(190, 152, 26);
   text-align: center;
   font-family: serif;
   font-size: 18px;
 }
 
-.container{
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
-.films{
-  grid-column: 1;
-  text-align: left;
-}
-
-.drinks{
-  grid-column: 2;
-  text-align: left;
-  padding-left: 2%;
-}
-
 .header{
   text-align: center;
+  color: rgb(255, 0, 221);
 }
 
 .breaks{
-  border: 2px solid goldenrod;
+  border: 2px solid rgb(255, 0, 221);
 }
 
 .span{
   font-weight: bold;
   color: rgb(53, 187, 53);
+}
+
+.links{
+  color: rgb(255, 0, 221);
+  padding-right: 2%;
+  font-size: 22px;
+
 }
