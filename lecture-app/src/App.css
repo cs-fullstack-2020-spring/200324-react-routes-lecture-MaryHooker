@@ -11,11 +11,11 @@ body{
   color: rgb(255, 0, 221);
 }
 
-.breaks{
+hr{
   border: 2px solid rgb(255, 0, 221);
 }
 
-.span{
+span{
   font-weight: bold;
   color: rgb(53, 187, 53);
 }

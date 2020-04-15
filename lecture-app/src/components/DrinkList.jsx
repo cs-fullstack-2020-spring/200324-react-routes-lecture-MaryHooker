@@ -29,9 +29,9 @@ class DrinkList extends Component {
                     this.state.drinkList.map((drink)=>{
                         return(
                             <div key={drink.idDrink}>
-                                <p><span className='span'>Drink Name:</span> {drink.strDrink}</p>
-                                <p><span className='span'>Description:</span> {drink.strInstructions}</p>
-                                <hr className='breaks'/>
+                                <p><span>Drink Name:</span> {drink.strDrink}</p>
+                                <p><span>Description:</span> {drink.strInstructions}</p>
+                                <hr/>
                             </div>
                         )
                     }

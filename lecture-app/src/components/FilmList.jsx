@@ -32,9 +32,9 @@ class FilmList extends Component {
                 {
                     this.state.filmList.map((film) =>{ return(
                         <div key={film.id}>
-                            <p><span className='span'>Film Name:</span> {film.title}</p>
-                            <p><span className='span'>Film Description:</span> {film.description}</p>
-                            <hr className='breaks'/>
+                            <p><span>Film Name:</span> {film.title}</p>
+                            <p><span>Film Description:</span> {film.description}</p>
+                            <hr/>
 
                         </div>
                     )
